@@ -1,0 +1,36 @@
+    <head>
+        <!-- Inclusion de la bibliothèque Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="./include/CSS/navbar.css">
+<script src="https://cdn.tailwindcss.com"></script>
+    </head>
+
+    
+    <nav role="navigation" class="flex justify-center items-center text-white text-uppercase w-full sticky top-4">
+        <div class="bg-gray-800 rounded-full w-fit px-4 py-2">
+            <a href="./index.php" class="mx-4">Accueil</a>
+            <a href="./favoris.php" class="mx-4">Favoris</a>
+        </div>
+
+        <div class="absolute top-0 right-2 flex mr-4 items-center gap-8">
+            <a href="./profil.php">
+                <!-- Icône de profil -->
+                <i class="fas fa-user text-xl text-gray-600"></i>
+            </a>
+            <a href="./include/fonction/logout.php" class="flex items-center bg-gray-800 px-3 py-2 rounded-md hover:bg-gray-700 transition duration-300">
+                <!-- Icône de déconnexion -->
+                <i class="fas fa-sign-out-alt text-white text-xl"></i>
+                <span class="ml-2 text-white">Déconnexion</span>
+            </a>
+        </div>
+
+    </nav>
+    
+    <div class="float-right flex items-center gap-8 mr-2">
+        <div class="profil">
+
+        </div>
+        <div class="logout">
+          
+        </div>
+    </div>

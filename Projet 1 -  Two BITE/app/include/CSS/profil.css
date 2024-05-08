@@ -1,0 +1,125 @@
+/* import font-family */
+/* p*/
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+body{
+    margin: 0;
+    background: whitesmoke;
+}
+
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.body{
+    margin: 2%;
+    margin-top: 5%;
+    padding: 2%;
+    padding-right: 0%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1{
+    font-size: 85px;
+    text-transform: uppercase;
+    margin-bottom: 1%;
+}
+
+.text{
+    width: 42%;
+    height: max-content;
+    padding: 2%;
+    margin-left: 2%;
+    border-radius: 3vh;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+.A{
+    width: 55%;
+
+}
+
+p{
+    margin: 1.4%;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 18px;
+}
+
+#desc{
+    width: 90%;
+    padding: 2%;
+    padding-right: 5%;
+    border-radius: 5px;
+    margin: 0;
+    margin-bottom: 2%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+
+#img-modif{
+    width: 380px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.amis{
+    width: 21%;
+    background-color: whitesmoke;
+    border-radius: 2vh;
+    padding: .4%;
+    height: max-content;
+    margin-left: 2%;
+}
+
+.amis .show{
+    background-color: white;
+    border-radius: 5px;
+    padding: 1%;
+    margin: 3%;
+    display: flex;
+}
+
+
+.amis .show #u{
+    margin-top: 11%;
+    margin-left: 3%;
+}
+
+/* modil Profil */
+
+.dir{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.containe{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 2%;
+    width: 60%;
+    height: auto;
+    margin: 3%;
+}
+
+.mdp{
+    background-color: whitesmoke;
+    border-radius: 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 2%;
+    width: 30%;
+    height: max-content;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+textarea{
+    padding: 5px;
+    border-radius: 12px;
+    text-align: center;
+    width: 100vh;
+}

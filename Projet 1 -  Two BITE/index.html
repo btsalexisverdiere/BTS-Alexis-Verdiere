@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+
+<nav class="fixed top-0 bg-white border-gray-200 dark:bg-gray-900 w-full">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="./app/include/img/icon-menu.png" class="h-10 w-auto"  alt="TWO BITE Logo" />
+      </a>
+      <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <li>
+            <a href="./app/login.php" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Connexion/inscription</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <section class="w-full h-screen md:m-0 m-auto ml-5 flex flex-row items-center justify-center text-2xl">
+    <div class="w-2/5 bg-gray-900 h-1/2 pl-28 py-11 flex flex-col justify-center items-center rounded-l-full">
+        <div class="max-w-1/2">
+          <h2 class="text-white text-3xl font-bold mb-4">Bienvenue dans notre Cuisine Virtuelle</h2>
+          <p class="inline-block bg-gray-900 text-white px-3 py-1 text-xl font-semibold mr-2 mb-2">Découvrez une expérience culinaire immersive où les saveurs prennent vie et où les recettes deviennent des aventures gustatives.</p>
+          <p class="inline-block bg-gray-900 text-white px-3 py-1 text-xl font-semibold mr-2 mb-2 mt-4">Parcourez nos collections de recettes authentiques et originales, trouvez l'inspiration pour votre prochain repas et partagez vos créations avec la communauté.</p>
+        </div>
+      </div>
+    <div class="w-2/5 bg-gray-700 pr-10 py-11 h-1/2 flex flex-col justify-center items-center rounded-r-full">
+      <h3 class="text-white text-4xl font-semibold mb-4">Découvrez de Nouvelles Saveurs</h3>
+      <div class="max-w-xl">
+          <h4 class="text-white text-3xl font-semibold mb-2">Explorez des Recettes Uniques</h4>
+          <p class="text-gray-300">Plongez dans une aventure culinaire avec notre sélection de recettes uniques du monde entier. Laissez-vous inspirer par des plats exotiques, des saveurs authentiques et des expériences gustatives inoubliables.</p>
+          <div class="mt-4">
+              <span class="inline-block bg-gray-900 text-white px-4 py-2 text-sm font-semibold mr-2 mb-2 rounded-2xl">Cuisine Internationale</span>
+              <span class="inline-block bg-gray-900 text-white px-4 py-2 text-sm font-semibold mr-2 mb-2 rounded-2xl">Exploration Culinaire</span>
+              <span class="inline-block bg-gray-900 text-white px-4 py-2 text-sm font-semibold rounded-2xl">Innovation Gastronomique</span>
+          </div>
+      </div>
+  </div>
+  
+</section>
+
+
+</header>
+
+
+<!-- Section À Propos -->
+<section class="bg-gray-800 py-20">
+  <div class="max-w-6xl mx-auto px-4">
+      <div class="text-center mb-12">
+          <h2 class="text-3xl font-semibold text-white">À Propos de Notre Entreprise</h2>
+          <p class="text-gray-400 mt-4">Découvrez ce qui fait de nous un leader dans notre domaine</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Card Bureaux -->
+          <div class="bg-white rounded-lg overflow-hidden shadow-md">
+              <img src="https://images.unsplash.com/photo-1606857521015-7f9fcf423740?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YnVyZWF1JTIwb3BlbnNwYWNlfGVufDB8fDB8fHww" alt="Bureaux" class="w-full h-56 object-cover object-center">
+              <div class="p-6">
+                  <h3 class="text-xl font-semibold text-gray-800 mb-2">Nos Bureaux</h3>
+                  <p class="text-gray-600">Nos bureaux sont situés au cœur de la ville, offrant un environnement de travail inspirant et collaboratif.</p>
+              </div>
+          </div>
+          <!-- Card Équipe -->
+          <div class="bg-white rounded-lg overflow-hidden shadow-md">
+              <img src="https://images.unsplash.com/photo-1522071901873-411886a10004?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjB8fGVxdWlwZSUyMHRyYXZhaWx8ZW58MHx8MHx8fDA%3D" alt="Équipe" class="w-full h-56 object-cover object-center">
+              <div class="p-6">
+                  <h3 class="text-xl font-semibold text-gray-800 mb-2">Notre Équipe</h3>
+                  <p class="text-gray-600">Nous sommes fiers de notre équipe talentueuse et dévouée, prête à répondre à tous vos besoins culinaires.</p>
+              </div>
+          </div>
+          <!-- Card Réalisations -->
+          <div class="bg-white rounded-lg overflow-hidden shadow-md">
+              <img src="https://images.unsplash.com/photo-1542528180-a1208c5169a5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODR8fGFwcGxpY2F0aW9uJTIwbWVudXxlbnwwfHwwfHx8MA%3D%3D" alt="Réalisations" class="w-full h-56 object-cover object-center">
+              <div class="p-6">
+                  <h3 class="text-xl font-semibold text-gray-800 mb-2">Nos Réalisations</h3>
+                  <p class="text-gray-600">Nous avons aidé beaucoup de personnes à cuisiner des repas délicieux et équilibrés avec nos recettes simples et efficaces.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- Section Recette Vedette -->
+<!-- Section Recettes Vedettes -->
+<section class="bg-gray-900 py-20">
+  <div class="max-w-6xl mx-auto px-4">
+      <div class="text-center mb-12">
+          <h2 class="text-3xl font-semibold text-white">Recettes Vedettes</h2>
+          <p class="text-gray-400 mt-4">Découvrez nos recettes phares de la semaine</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Recette 1 -->
+          <div class="bg-white rounded-lg overflow-hidden shadow-md">
+              <img src="https://images.unsplash.com/photo-1473093226795-af9932fe5856?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGF0ZXMlMjBjYXJib3xlbnwwfHwwfHx8MA%3D%3D" alt="carbonara" class="w-full h-72 object-cover object-center">
+              <div class="p-6">
+                  <h3 class="text-xl font-semibold text-gray-800 mb-2">Spaghetti Carbonara</h3>
+                  <p class="text-gray-600">Plongez dans l'authenticité de l'Italie avec notre recette classique de spaghetti carbonara. Savourez chaque bouchée de pâtes crémeuses, de lard croustillant et de fromage parmesan fondant.</p>
+                  <div class="mt-4">
+                    <span class="inline-block bg-gray-900 text-white px-3 py-1 text-sm font-semibold mr-2 mb-2 rounded">Pâtes</span>
+                    <span class="inline-block bg-gray-900 text-white px-3 py-1 text-sm font-semibold mr-2 mb-2 rounded">Lardons</span>
+                    <span class="inline-block bg-gray-900 text-white px-3 py-1 text-sm font-semibold rounded">Fromage</span>
+                </div>
+              </div>
+          </div>
+          <!-- Recette 2 -->
+          <div class="bg-white rounded-lg overflow-hidden shadow-md">
+              <img src="https://images.unsplash.com/photo-1512132411229-c30391241dd8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c3VzaGklMjBqYXBvbmFpc3xlbnwwfHwwfHx8MA%3D%3D" alt="Sushi" class="w-full h-72 object-cover object-center">
+              <div class="p-6">
+                  <h3 class="text-xl font-semibold text-gray-800 mb-2">Sushi Japonais</h3>
+                  <p class="text-gray-600">Une délicatesse japonaise incontournable, ces sushis raffinés sont un mélange parfait de riz vinaigré, de poisson frais et d'algue nori.</p>
+                  <div class="mt-4">
+                      <span class="inline-block bg-gray-900 text-white px-3 py-1 text-sm font-semibold mr-2 mb-2 rounded">Poisson</span>
+                      <span class="inline-block bg-gray-900 text-white px-3 py-1 text-sm font-semibold rounded">Cuisine japonaise</span>
+                  </div>
+              </div>
+          </div>
+          <!-- Recette 3 -->
+          <div class="bg-white rounded-lg overflow-hidden shadow-md">
+              <img src="https://plus.unsplash.com/premium_photo-1679231520250-8c3f57b99473?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dGFjb3MlMjBtZXhpY2Fub3N8ZW58MHx8MHx8fDA%3D" alt="Tacos" class="w-full h-72 object-cover object-center">
+              <div class="p-6">
+                  <h3 class="text-xl font-semibold text-gray-800 mb-2">Tacos Mexicains</h3>
+                  <p class="text-gray-600">Un favori de la street food mexicaine, ces tacos sont garnis de viande épicée, de salsa fraîche, de guacamole crémeux et de fromage fondu.</p>
+                  <div class="mt-4">
+                      <span class="inline-block bg-gray-900 text-white px-3 py-1 text-sm font-semibold mr-2 mb-2 rounded">Viande</span>
+                      <span class="inline-block bg-gray-900 text-white px-3 py-1 text-sm font-semibold rounded">Cuisine mexicaine</span>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+
+
+
+<footer class="rounded-lg shadow bg-gray-900">
+    <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+        <div class="sm:flex sm:items-center sm:justify-between">
+            <a href="#" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+                <img src="./app/include/img/icon-menu.png" class="h-8" alt="TWO BITE Logo" />
+            </a>
+            <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                <li>
+                    <a href="#" class="hover:underline me-4 md:me-6">About</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:underline">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="https://flowbite.com/" class="hover:underline">Two Bites</a>. All Rights Reserved.</span>
+    </div>
+</footer>
+
+
+</body>
+</html>

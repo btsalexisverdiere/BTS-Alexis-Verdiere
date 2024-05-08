@@ -1,0 +1,27 @@
+/* nav{
+    width: fit-content;
+    color: white;
+    background: #111827;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 4px;
+    border-radius: 10000px;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    position: sticky;
+    top: 10px;
+}
+
+nav a{
+    color: white;
+    margin: 0 20px;
+}
+
+#content-right{
+    position: sticky;
+    top: 10px;
+    right: 10px;
+} */

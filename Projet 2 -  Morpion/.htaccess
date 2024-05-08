@@ -1,0 +1,19 @@
+# Désactiver l'affichage des erreurs
+php_flag display_errors off
+
+# Désactiver le suivi des liens symboliques
+Options -FollowSymLinks
+
+# Bloquer l'accès à certains fichiers sensibles
+<FilesMatch "(^\.htaccess|\.htpasswd|\.env)">
+    Order allow,deny
+    Deny from all
+    Satisfy all
+</FilesMatch>
+
+# Redirection vers HTTPS (si nécessaire)
+# RewriteEngine On
+# RewriteCond %{HTTPS} off
+# RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+

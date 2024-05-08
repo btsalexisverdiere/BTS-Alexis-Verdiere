@@ -1,0 +1,123 @@
+:root {
+    --background-color : #fff;
+    --text-color :#131200;
+    --secondary-color: #111827;
+}
+
+.home-search {
+    border-radius: 10px;
+    background: var(--background-color);
+    box-shadow: 13px 10px 100px 10px rgba(15, 15, 15, 0.1);
+    max-width: 35vw;
+    padding: 3% 2%;
+    display: flex;
+    flex-direction: column; /* Empêche les éléments de s'étendre horizontalement */
+    align-items: center;
+    justify-content: center;
+    margin: auto; /* Centre l'élément horizontalement sur la page */
+    margin-top: 10vh;
+    color: var(--text-color);
+}
+
+.home-search form{
+    width: 80%;
+}
+
+.home-search input{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: start;
+}
+
+.home-search input[type=text] {
+    width: 45%;
+    transition: all 0.4s ease-in-out;
+    text-align: left !important;
+}
+  
+.home-search input[type=text]:focus {
+    width: 100%;
+    transition: width 0.4s ease-in-out;
+  }
+
+   #emptySearch{
+    text-align: center;
+    margin-top: 10vh;
+    font-size: x-large;
+   }
+
+   .card-menu{
+    background: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    max-width: 20vw;
+   }
+
+   .card-menu img{
+    width : 100%;
+    border-radius: 8px;
+   }
+
+   
+
+  .menu-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    max-width: 300px;
+}
+
+.menu-card-header {
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.menu-title {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #333333;
+}
+
+.menu-card-body {
+    padding: 10px;
+}
+
+.menu-image {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.menu-description {
+    margin-top: 10px;
+    color: #666666;
+}
+
+.menu-card-footer {
+    padding: 10px;
+    text-align: center;
+}
+
+.favorite-button {
+    background-color: #ff5252;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.favorite-button:hover {
+    background-color: #e60000;
+}
+
+.heart-icon {
+    margin-right: 5px;
+}
